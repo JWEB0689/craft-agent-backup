@@ -1,0 +1,24 @@
+{
+  "allowedMcpPatterns": [
+    {
+      "pattern": "^mcp__session__source_oauth_trigger$",
+      "comment": "Allow starting OAuth authentication flows for sources"
+    },
+    {
+      "pattern": "^mcp__session__source_google_oauth_trigger$",
+      "comment": "Allow starting Google OAuth authentication flows"
+    },
+    {
+      "pattern": "^mcp__session__source_slack_oauth_trigger$",
+      "comment": "Allow starting Slack OAuth authentication flows"
+    },
+    {
+      "pattern": "^mcp__session__source_microsoft_oauth_trigger$",
+      "comment": "Allow starting Microsoft OAuth authentication flows"
+    },
+    {
+      "pattern": "^mcp__session__source_credential_prompt$",
+      "comment": "Allow prompting the user for non-OAuth credentials (API keys, bearer tokens, basic auth)"
+    }
+  ]
+}

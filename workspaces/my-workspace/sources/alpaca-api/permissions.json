@@ -1,0 +1,8 @@
+{
+  "allowedApiEndpoints": [
+    { "method": "GET", "path": ".*", "comment": "Allow read-only GET endpoints (account, orders, positions, assets, market data)" },
+    { "method": "POST", "path": "orders.*", "comment": "Allow creating orders (requires manual confirmation)" },
+    { "method": "DELETE", "path": "orders.*", "comment": "Allow canceling orders (requires manual confirmation)" },
+    { "method": "PATCH", "path": "orders.*", "comment": "Allow modifying orders (requires manual confirmation)" }
+  ]
+}

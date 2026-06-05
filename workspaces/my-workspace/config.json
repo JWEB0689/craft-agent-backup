@@ -1,0 +1,41 @@
+{
+  "id": "ws_0d9a89a2",
+  "name": "My Workspace",
+  "slug": "my-workspace",
+  "defaults": {
+    "permissionMode": "allow-all",
+    "cyclablePermissionModes": [
+      "allow-all",
+      "safe"
+    ],
+    "enabledSourceSlugs": [
+      "memory-mcp",
+      "local-workspace",
+      "linear",
+      "httpbin-api",
+      "github",
+      "craft-agents-docs",
+      "alpaca-api",
+      "winget-mcp",
+      "yahoo-finance-api",
+      "github-api",
+      "shopify",
+      "sequential-thinking-mcp",
+      "slack",
+      "openrouter",
+      "lmstudio-api",
+      "snyk",
+      "wikipedia"
+    ],
+    "colorTheme": "gruvbox",
+    "thinkingLevel": "max",
+    "workingDirectory": "~/Documents",
+    "defaultLlmConnection": null,
+    "model": null
+  },
+  "localMcpServers": {
+    "enabled": true
+  },
+  "createdAt": 1780252788582,
+  "updatedAt": 1780672972630
+}

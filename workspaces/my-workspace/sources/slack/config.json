@@ -1,0 +1,23 @@
+{
+  "id": "slack_a1b2c3d4",
+  "name": "Slack",
+  "slug": "slack",
+  "enabled": true,
+  "provider": "slack",
+  "type": "mcp",
+  "icon": "https://slack.com/favicon.ico",
+  "tagline": "Messaging and collaboration platform for teams.",
+  "mcp": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "authType": "oauth"
+  },
+  "lastTestedAt": 1780345977343,
+  "connectionStatus": "error",
+  "connectionError": "MCP initialize failed: MCP error -32000: Connection closed. Check that the server speaks newline-delimited JSON-RPC (MCP stdio spec) on stdout, not LSP-style Content-Length framing.\nstderr (tail):\n'npx' is not recognized as an internal or external command,\r\noperable program or batch file.",
+  "updatedAt": 1780345977343
+}

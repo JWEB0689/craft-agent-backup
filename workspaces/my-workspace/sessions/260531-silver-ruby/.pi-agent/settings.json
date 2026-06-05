@@ -1,0 +1,7 @@
+{
+  "compaction": {
+    "enabled": true
+  },
+  "defaultProvider": "github-copilot",
+  "defaultModel": "gpt-5-mini"
+}

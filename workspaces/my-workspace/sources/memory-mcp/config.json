@@ -1,0 +1,24 @@
+{
+  "id": "memory-mcp_f0e1d2c3",
+  "name": "Memory MCP",
+  "slug": "memory-mcp",
+  "enabled": true,
+  "provider": "memory",
+  "type": "mcp",
+  "icon": "🧠",
+  "tagline": "Local Memory MCP server via stdio for testing",
+  "mcp": {
+    "transport": "stdio",
+    "command": "npx.cmd",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory"
+    ],
+    "authType": "none"
+  },
+  "connectionStatus": "error",
+  "isAuthenticated": true,
+  "lastTestedAt": 1780331179479,
+  "updatedAt": 1780331179479,
+  "connectionError": "MCP initialize failed: MCP error -32000: Connection closed. Check that the server speaks newline-delimited JSON-RPC (MCP stdio spec) on stdout, not LSP-style Content-Length framing.\nstderr (tail):\n'npx.cmd' is not recognized as an internal or external command,\r\noperable program or batch file."
+}

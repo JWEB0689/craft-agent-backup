@@ -1,0 +1,5 @@
+{
+  "allowedApiEndpoints": [
+    { "method": "GET", "path": "^v6/finance/.*", "comment": "Allow read-only finance endpoints" }
+  ]
+}

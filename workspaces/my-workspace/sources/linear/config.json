@@ -1,0 +1,19 @@
+{
+  "id": "linear_c7f8a1b2",
+  "name": "Linear (Issue Tracking)",
+  "slug": "linear",
+  "enabled": true,
+  "provider": "linear",
+  "type": "mcp",
+  "icon": "https://linear.app/static/favicon.svg",
+  "tagline": "Linear MCP server (issues, projects, comments)",
+  "mcp": {
+    "transport": "http",
+    "url": "https://mcp.linear.app/mcp",
+    "authType": "oauth"
+  },
+  "lastTestedAt": 1780331180362,
+  "connectionStatus": "connected",
+  "updatedAt": 1780595509404,
+  "isAuthenticated": true
+}

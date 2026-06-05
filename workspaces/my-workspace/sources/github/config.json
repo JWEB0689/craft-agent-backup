@@ -1,0 +1,19 @@
+{
+  "id": "github_3d4e5f6a",
+  "name": "GitHub (Copilot MCP)",
+  "slug": "github",
+  "enabled": true,
+  "provider": "github",
+  "type": "mcp",
+  "icon": "https://github.githubassets.com/favicons/favicon.png",
+  "tagline": "GitHub MCP server (repos, PRs, issues) via Copilot MCP",
+  "mcp": {
+    "transport": "http",
+    "url": "https://api.githubcopilot.com/mcp/",
+    "authType": "bearer"
+  },
+  "connectionStatus": "connected",
+  "isAuthenticated": true,
+  "lastTestedAt": 1780331179661,
+  "updatedAt": 1780331179662
+}

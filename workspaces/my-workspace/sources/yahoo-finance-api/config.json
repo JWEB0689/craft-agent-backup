@@ -1,0 +1,23 @@
+{
+  "id": "yahoo_finance_api_a7c9d5f1",
+  "name": "YH Finance API (yfapi.net)",
+  "slug": "yahoo-finance-api",
+  "enabled": true,
+  "provider": "yfapi",
+  "type": "api",
+  "icon": "📈",
+  "tagline": "Real time low latency Finance API for stock market, crypto currencies, and currency exchange",
+  "api": {
+    "baseUrl": "https://yfapi.net/",
+    "authType": "header",
+    "headerName": "x-api-key",
+    "testEndpoint": {
+      "method": "GET",
+      "path": "v6/finance/quote?symbols=AAPL"
+    }
+  },
+  "connectionStatus": "connected",
+  "isAuthenticated": false,
+  "lastTestedAt": 1780331179624,
+  "updatedAt": 1780331179625
+}

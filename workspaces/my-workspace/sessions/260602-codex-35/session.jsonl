@@ -1,0 +1,3 @@
+{"id": "meta-35-31-019e89d5-80bb-7db3-a665-175f0f3e4d33", "workspaceRootPath": "~\\.craft-agent\\workspaces\\my-workspace", "sdkSessionId": "35-31-019e89d5-80bb-7db3-a665-175f0f3e4d33", "sdkCwd": "C:\\Users\\Jwebe\\Documents"}
+{"id": "msg-1780428931894-task-start", "content": "Task started", "timestamp": 1780428931894, "role": "system"}
+{"id": "msg-1780428932081-user", "content": "Use GitHub or my uploaded code/course materials to help debug a coding assignment or project. Explain the issue in plain English, suggest a fix path, and list what to test.\n", "timestamp": 1780428932081, "role": "user"}

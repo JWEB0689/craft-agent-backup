@@ -1,0 +1,22 @@
+{
+  "id": "openrouter_b1c2d3e4",
+  "name": "OpenRouter",
+  "slug": "openrouter",
+  "enabled": true,
+  "provider": "openrouter",
+  "type": "api",
+  "icon": "https://openrouter.ai/favicon.ico",
+  "tagline": "Access to various large language models (LLMs) through a unified API.",
+  "api": {
+    "baseUrl": "https://openrouter.ai/api/v1/",
+    "authType": "bearer",
+    "testEndpoint": {
+      "method": "GET",
+      "path": "models"
+    }
+  },
+  "lastTestedAt": 1780344482709,
+  "connectionStatus": "connected",
+  "updatedAt": 1780344783716,
+  "isAuthenticated": true
+}

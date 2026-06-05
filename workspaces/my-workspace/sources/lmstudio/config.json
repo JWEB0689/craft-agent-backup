@@ -1,0 +1,17 @@
+{
+  "id": "lmstudio_api_a1b2c3d4",
+  "name": "LM Studio API",
+  "slug": "lmstudio-api",
+  "enabled": true,
+  "provider": "lmstudio",
+  "type": "api",
+  "api": {
+    "baseUrl": "http://100.101.243.84/v1/",
+    "authType": "none",
+    "testEndpoint": {
+      "method": "GET",
+      "path": "/models"
+    }
+  },
+  "icon": "🤖"
+}

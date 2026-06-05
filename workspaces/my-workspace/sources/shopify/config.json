@@ -1,0 +1,27 @@
+{
+  "id": "shopify_605fb993",
+  "name": "Shopify",
+  "slug": "shopify",
+  "provider": "shopify",
+  "type": "api",
+  "icon": "https://www.shopify.com/favicon.ico",
+  "tagline": "Manage your Shopify store",
+  "api": {
+    "baseUrl": "https://{store_name}.myshopify.com/admin/api/2026-01/",
+    "authType": "header",
+    "headerName": "X-Shopify-Access-Token",
+    "testEndpoint": {
+      "method": "GET",
+      "path": "shop.json"
+    },
+    "config": [
+      {
+        "key": "store_name",
+        "label": "Store Name",
+        "type": "text",
+        "required": true,
+        "description": "Your store name is the part of your Shopify URL before .myshopify.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "allowedBashPatterns": [
+    {
+      "pattern": "^(ls|dir|cat|type|head|tail|grep|find)\\s",
+      "comment": "Allow common read-only file commands"
+    }
+  ]
+}

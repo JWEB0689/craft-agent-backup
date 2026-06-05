@@ -1,0 +1,17 @@
+{
+  "id": "wikipedia_a4b3c2d1",
+  "name": "Wikipedia",
+  "slug": "wikipedia",
+  "enabled": true,
+  "provider": "wikimedia",
+  "type": "api",
+  "icon": "https://en.wikipedia.org/static/favicon/wikipedia.ico",
+  "tagline": "Access the MediaWiki API for Wikipedia to search and retrieve articles.",
+  "api": {
+    "baseUrl": "https://en.wikipedia.org/w/api.php/",
+    "authType": "none"
+  },
+  "lastTestedAt": 1780671741670,
+  "connectionStatus": "connected",
+  "updatedAt": 1780671741671
+}

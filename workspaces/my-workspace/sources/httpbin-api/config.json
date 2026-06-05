@@ -1,0 +1,18 @@
+{
+  "id": "httpbin-api_b5c6d7e8",
+  "name": "httpbin.org",
+  "slug": "httpbin-api",
+  "enabled": true,
+  "provider": "httpbin",
+  "type": "api",
+  "icon": "🌐",
+  "tagline": "Public HTTP testing API (https://httpbin.org/)",
+  "api": {
+    "baseUrl": "https://httpbin.org/",
+    "authType": "none"
+  },
+  "connectionStatus": "connected",
+  "isAuthenticated": true,
+  "lastTestedAt": 1780331179685,
+  "updatedAt": 1780331179685
+}

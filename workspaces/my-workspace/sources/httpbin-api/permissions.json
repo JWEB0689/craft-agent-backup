@@ -1,0 +1,6 @@
+{
+  "allowedApiEndpoints": [
+    { "method": "GET", "path": ".*", "comment": "Allow GET requests to httpbin endpoints" },
+    { "method": "POST", "path": ".*", "comment": "Allow POST requests to httpbin endpoints (for testing)" }
+  ]
+}

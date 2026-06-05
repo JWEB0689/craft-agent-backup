@@ -1,0 +1,5 @@
+{"type":"session","version":3,"id":"019e8e39-2e21-712c-a789-448da2c2b1c9","timestamp":"2026-06-03T16:02:52.579Z","cwd":"C:\\Users\\Jwebe\\Documents"}
+{"type":"model_change","id":"32bed391","parentId":null,"timestamp":"2026-06-03T16:02:52.599Z","provider":"custom-endpoint","modelId":"claude-opus-4.8"}
+{"type":"thinking_level_change","id":"033ccda1","parentId":"32bed391","timestamp":"2026-06-03T16:02:52.599Z","thinkingLevel":"off"}
+{"type":"message","id":"bb227e6e","parentId":"033ccda1","timestamp":"2026-06-03T16:02:52.613Z","message":{"role":"user","content":[{"type":"text","text":"Hows the alpaca account"}],"timestamp":1780502572608}}
+{"type":"message","id":"2de22608","parentId":"bb227e6e","timestamp":"2026-06-03T16:05:00.563Z","message":{"role":"assistant","content":[],"api":"anthropic-messages","provider":"custom-endpoint","model":"claude-opus-4.8","usage":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"totalTokens":0,"cost":{"input":0,"output":0,"cacheRead":0,"cacheWrite":0,"total":0}},"stopReason":"error","timestamp":1780502572620,"errorMessage":"Connection error."}}

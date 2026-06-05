@@ -1,0 +1,17 @@
+{
+  "id": "craft-agents-docs_7a8b9c0d",
+  "name": "Craft Agents Docs",
+  "slug": "craft-agents-docs",
+  "enabled": true,
+  "provider": "craft-agents-docs",
+  "type": "api",
+  "icon": "📚",
+  "tagline": "Documentation index and guides for Craft Agents (agent setup, sources, skills)",
+  "api": {
+    "baseUrl": "https://agents.craft.do/docs/",
+    "authType": "none"
+  },
+  "lastTestedAt": 1780331180267,
+  "connectionStatus": "connected",
+  "updatedAt": 1780331180267
+}

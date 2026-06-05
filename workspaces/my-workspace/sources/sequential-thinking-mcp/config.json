@@ -1,0 +1,21 @@
+{
+  "id": "sequential-thinking-mcp_1aa650f6",
+  "name": "Sequential Thinking MCP",
+  "slug": "sequential-thinking-mcp",
+  "provider": "github",
+  "type": "mcp",
+  "icon": "🧠",
+  "tagline": "A server for structured, progressive thinking through defined stages.",
+  "mcp": {
+    "transport": "stdio",
+    "command": "C:\\\\Users\\\\Jwebe\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Links\\\\uvx.exe",
+    "args": [
+      "--from",
+      "git+https://github.com/arben-adm/mcp-sequential-thinking",
+      "--with",
+      "portalocker",
+      "mcp-sequential-thinking"
+    ],
+    "authType": "none"
+  }
+}

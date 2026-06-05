@@ -1,0 +1,20 @@
+{
+  "id": "winget-mcp_e3b1c2a4",
+  "name": "Windows Package Manager (winget) MCP",
+  "slug": "winget-mcp",
+  "enabled": true,
+  "provider": "winget",
+  "type": "mcp",
+  "icon": "📦",
+  "tagline": "Windows Package Manager MCP server (winget) over stdio",
+  "mcp": {
+    "transport": "stdio",
+    "command": "C:\\Users\\Jwebe\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\WindowsPackageManagerMCPServer.exe",
+    "args": [],
+    "authType": "none"
+  },
+  "connectionStatus": "connected",
+  "isAuthenticated": true,
+  "lastTestedAt": 1780331180161,
+  "updatedAt": 1780331180161
+}

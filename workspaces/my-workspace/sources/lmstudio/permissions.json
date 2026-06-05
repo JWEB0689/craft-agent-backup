@@ -1,0 +1,6 @@
+{
+  "allowedApiEndpoints": [
+    { "method": "GET", "path": "/models", "comment": "Allow GET requests to list models" },
+    { "method": "POST", "path": "/chat/completions", "comment": "Allow POST requests for chat completions" }
+  ]
+}

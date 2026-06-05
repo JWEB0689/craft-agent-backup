@@ -1,0 +1,27 @@
+{
+  "id": "github-api_f3a9c1b2",
+  "name": "GitHub API",
+  "slug": "github-api",
+  "enabled": true,
+  "provider": "github",
+  "type": "api",
+  "icon": "https://github.githubassets.com/favicons/favicon.png",
+  "tagline": "GitHub REST API for repositories, issues, pull requests, and user info",
+  "api": {
+    "baseUrl": "https://api.github.com/",
+    "authType": "bearer",
+    "authScheme": "Bearer",
+    "defaultHeaders": {
+      "Accept": "application/vnd.github.v3+json",
+      "User-Agent": "Craft Agent"
+    },
+    "testEndpoint": {
+      "method": "GET",
+      "path": "user"
+    }
+  },
+  "isAuthenticated": true,
+  "connectionStatus": "connected",
+  "lastTestedAt": 1780331179742,
+  "updatedAt": 1780331179743
+}

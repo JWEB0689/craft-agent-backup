@@ -1,0 +1,8 @@
+{
+  "allowedMcpPatterns": [
+    { "pattern": "list", "comment": "Allow listing operations" },
+    { "pattern": "get", "comment": "Allow get/read operations" },
+    { "pattern": "search", "comment": "Allow search operations" },
+    { "pattern": "find", "comment": "Allow find operations" }
+  ]
+}

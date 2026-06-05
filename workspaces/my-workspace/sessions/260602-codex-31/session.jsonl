@@ -1,0 +1,3 @@
+{"id": "meta-31-52-019e89d2-29dc-7001-a9ff-259c268fdb8e", "workspaceRootPath": "~\\.craft-agent\\workspaces\\my-workspace", "sdkSessionId": "31-52-019e89d2-29dc-7001-a9ff-259c268fdb8e", "sdkCwd": "C:\\Users\\Jwebe\\Documents"}
+{"id": "msg-1780428713530-task-start", "content": "Task started", "timestamp": 1780428713530, "role": "system"}
+{"id": "msg-1780428713731-user", "content": "[$computer-use:computer-use](C:\\\\Users\\\\Jwebe\\\\.codex\\\\plugins\\\\cache\\\\openai-bundled\\\\computer-use\\\\26.527.60818\\\\skills\\\\computer-use\\\\SKILL.md)  add correct credentials to the craft agents application please\n", "timestamp": 1780428713731, "role": "user"}

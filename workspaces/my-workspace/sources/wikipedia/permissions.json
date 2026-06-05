@@ -1,0 +1,9 @@
+{
+  "allowedApiEndpoints": [
+    {
+      "method": "GET",
+      "path": ".*",
+      "comment": "Allow all GET requests (read-only)"
+    }
+  ]
+}

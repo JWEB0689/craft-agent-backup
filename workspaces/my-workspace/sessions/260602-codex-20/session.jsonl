@@ -1,0 +1,3 @@
+{"id": "meta-20-24-019e89c7-aab0-74e0-8494-9cda9c30eccb", "workspaceRootPath": "~\\.craft-agent\\workspaces\\my-workspace", "sdkSessionId": "20-24-019e89c7-aab0-74e0-8494-9cda9c30eccb", "sdkCwd": "C:\\Users\\Jwebe\\Documents"}
+{"id": "msg-1780428025344-task-start", "content": "Task started", "timestamp": 1780428025344, "role": "system"}
+{"id": "msg-1780428041002-user", "content": "\n# Files mentioned by the user:\n\n## craft-agent-git-crypt.key: C:\\Users\\Jwebe\\Downloads\\craft-agent-git-crypt.key\n\n## My request for Codex:\n/goal decrypt my backup @Computer\n@Browser  @chrome\n", "timestamp": 1780428041002, "role": "user"}

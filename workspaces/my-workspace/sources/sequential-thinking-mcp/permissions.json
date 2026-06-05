@@ -1,0 +1,8 @@
+{
+  "allowedMcpPatterns": [
+    {
+      "pattern": ".*",
+      "comment": "Allow all sequential-thinking-mcp tools"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "local-workspace_a1b2c3d4",
+  "name": "Local Workspace Files",
+  "slug": "local-workspace",
+  "enabled": true,
+  "provider": "local",
+  "type": "local",
+  "icon": "🗂️",
+  "tagline": "Local filesystem source for workspace files",
+  "local": {
+    "path": "~/.craft-agent\\workspaces\\my-workspace"
+  },
+  "connectionStatus": "connected",
+  "isAuthenticated": true,
+  "lastTestedAt": 1780331179452,
+  "updatedAt": 1780331179452
+}

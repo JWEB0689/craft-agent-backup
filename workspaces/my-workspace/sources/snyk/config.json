@@ -1,0 +1,22 @@
+{
+  "id": "snyk_2f8d5e1a",
+  "name": "Snyk",
+  "slug": "snyk",
+  "enabled": true,
+  "provider": "snyk",
+  "type": "api",
+  "icon": "https://snyk.io/images/snyk-dog.svg",
+  "tagline": "Developer security platform for finding and fixing vulnerabilities.",
+  "api": {
+    "baseUrl": "https://api.snyk.io/rest/",
+    "authType": "bearer",
+    "authScheme": "Bearer",
+    "testEndpoint": {
+      "method": "GET",
+      "path": "orgs?version=2024-05-23"
+    }
+  },
+  "lastTestedAt": 1780671720908,
+  "connectionStatus": "connected",
+  "updatedAt": 1780671720908
+}

@@ -1,0 +1,5 @@
+{"id": "meta-58-54-019e84c4-8d5b-7410-952a-965e08062779", "workspaceRootPath": "~\\.craft-agent\\workspaces\\my-workspace", "sdkSessionId": "58-54-019e84c4-8d5b-7410-952a-965e08062779", "sdkCwd": "C:\\Users\\Jwebe\\Documents"}
+{"id": "msg-1780343935456-task-start", "content": "Task started", "timestamp": 1780343935456, "role": "system"}
+{"id": "msg-1780343935548-user", "content": "connect to everything\n", "timestamp": 1780343935548, "role": "user"}
+{"id": "msg-1780343992042-task-start", "content": "Task started", "timestamp": 1780343992042, "role": "system"}
+{"id": "msg-1780343992075-user", "content": "add sequiential thinking pleas\n", "timestamp": 1780343992075, "role": "user"}

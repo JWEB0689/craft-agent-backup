@@ -1,0 +1,9 @@
+{
+  "allowedMcpPatterns": [
+    { "pattern": "list", "comment": "All list operations" },
+    { "pattern": "get", "comment": "All get/read operations" },
+    { "pattern": "search", "comment": "All search operations" },
+    { "pattern": "send_message", "comment": "Allow sending messages" },
+    { "pattern": "post_message", "comment": "Allow posting messages" }
+  ]
+}

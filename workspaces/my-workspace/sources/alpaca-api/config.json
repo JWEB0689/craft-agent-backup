@@ -1,0 +1,28 @@
+{
+  "id": "alpaca_api_a9b8c7d6",
+  "name": "Alpaca Markets API",
+  "slug": "alpaca-api",
+  "enabled": true,
+  "provider": "alpaca",
+  "type": "api",
+  "icon": "💹",
+  "tagline": "Alpaca Markets PAPER REST API (paper testing endpoint)",
+  "api": {
+    "baseUrl": "https://paper-api.alpaca.markets/v2/",
+    "authType": "header",
+    "headerNames": [
+      "APCA-API-KEY-ID",
+      "APCA-API-SECRET-KEY"
+    ],
+    "testEndpoint": {
+      "method": "GET",
+      "path": "account"
+    }
+  },
+  "tradingEnabled": true,
+  "requireOrderConfirmation": true,
+  "connectionStatus": "connected",
+  "isAuthenticated": true,
+  "updatedAt": 1780429669432,
+  "lastTestedAt": 1780331179636
+}

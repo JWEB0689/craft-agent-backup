@@ -1,0 +1,7 @@
+{
+  "compaction": {
+    "enabled": true
+  },
+  "defaultProvider": "github-copilot",
+  "defaultModel": "claude-haiku-4.5"
+}

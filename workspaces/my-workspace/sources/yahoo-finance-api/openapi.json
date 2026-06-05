@@ -1,0 +1,78 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "YH Finance API Specification",
+    "description": "Real time low latency Finance API for stock market, crypto currencies, and currency exchange",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://yfapi.net",
+      "description": "Base URL"
+    }
+  ],
+  "tags": [
+    {
+      "name": "API"
+    }
+  ],
+  "paths": {
+    "/v6/finance/quote": {
+      "get": {
+        "tags": [
+          "API"
+        ],
+        "parameters": [
+          {
+            "name": "region",
+            "in": "query",
+            "required": false,
+            "description": "`US` `AU` `CA` `FR` `DE` `HK` `IT` `ES` `GB` `IN`",
+            "schema": {
+              "type": "string",
+              "example": "US"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "`en` `fr` `de` `it` `es` `zh`",
+            "schema": {
+              "type": "string",
+              "example": "en"
+            }
+          },
+          {
+            "name": "symbols",
+            "in": "query",
+            "required": true,
+            "description": "Multiple symbols separated by commas. Max is 10",
+            "schema": {
+              "type": "string",
+              "example": "AAPL,BTC-USD,EURUSD=X"
+            }
+          }
+        ],
+        "operationId": "quotes",
+        "description": "Real time quote data for stocks, ETFs, mutuals funds, etc…",
+        "responses": {
+          "200": {
+                "content": {
+                  "application/json": {
+                    "examples": {
+                      "Response": {
+                        "description": "",
+                        "summary": "response",
+                        "value": {
+                          "quoteResponse": {
+                            "error": null,
+                            "result": [
+                              {
+                                "ask": 117.27,
+                                "askSize": 8,
+                                "averageDailyVolume10Day": 233119800,
+                                "averageDailyVolume3Month": 170533131,
+                                "bid": 117.25,
+                                "bidSize": 22,
+                                "boo
